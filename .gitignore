@@ -1,0 +1,29 @@
+# Don't upload actual hashes and results
+hashes/*.txt
+results/*.txt
+*.potfile
+
+# Don't upload large wordlists
+wordlists/rockyou.txt
+
+# Keep directory structure but not contents
+!hashes/.gitkeep
+!results/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Personal notes (optional)
+ANSWER_KEY.txt
+*_cracked.txt

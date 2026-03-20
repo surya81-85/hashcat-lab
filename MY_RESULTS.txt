@@ -1,0 +1,10 @@
+====================================
+MY HASHCAT LAB RESULTS
+====================================
+
+SPEED COMPARISON:
+- MD5:    0.208 seconds
+- SHA1:   0.180 seconds (FASTEST!)
+- SHA256: 0.199 seconds
+
+CRACKED PASSWORDS:
