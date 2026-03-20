@@ -45,7 +45,7 @@ Unauthorized access to computer systems is illegal.
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/hashcat-lab.git
+git clone https://github.com/surya81-85/hashcat-lab.git
 cd hashcat-lab
 
 # Install dependencies

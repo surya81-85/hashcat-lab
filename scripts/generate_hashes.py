@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Hash Generator for Hashcat Lab
 Creates test hashes for learning
@@ -21,7 +21,7 @@ def generate_hash(password, hash_type='md5'):
         return None
 
 def main():
-    # Test passwords
+
     passwords = [
         'password',      # Very common
         '123456',        # Most common
@@ -39,7 +39,6 @@ def main():
     print("🔐 Hashcat Lab - Hash Generator")
     print("="*60)
     
-    # Generate MD5 hashes
     print("\n📝 Generating MD5 hashes...")
     with open('../hashes/md5_hashes.txt', 'w') as f:
         for pwd in passwords:
@@ -47,7 +46,6 @@ def main():
             f.write(f"{hash_val}\n")
     print(f"✅ Created md5_hashes.txt with {len(passwords)} hashes")
     
-    # Generate SHA1 hashes
     print("\n📝 Generating SHA1 hashes...")
     with open('../hashes/sha1_hashes.txt', 'w') as f:
         for pwd in passwords:
@@ -55,7 +53,6 @@ def main():
             f.write(f"{hash_val}\n")
     print(f"✅ Created sha1_hashes.txt with {len(passwords)} hashes")
     
-    # Generate SHA256 hashes
     print("\n📝 Generating SHA256 hashes...")
     with open('../hashes/sha256_hashes.txt', 'w') as f:
         for pwd in passwords:
@@ -63,7 +60,6 @@ def main():
             f.write(f"{hash_val}\n")
     print(f"✅ Created sha256_hashes.txt with {len(passwords)} hashes")
     
-    # Create answer key
     print("\n📝 Creating answer key...")
     with open('../hashes/ANSWER_KEY.txt', 'w') as f:
         f.write("="*60 + "\n")
